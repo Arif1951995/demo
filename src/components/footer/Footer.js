@@ -5,7 +5,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <footer>
-        <p>Made with <i class="fas fa-heart"></i> By Team</p>
+        <p>Made with <i className="fas fa-heart"></i> By Team</p>
         </footer>
     );
 }
