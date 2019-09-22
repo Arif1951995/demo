@@ -1,0 +1,98 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://i.ibb.co/6J77JkQ/floral.png);
+    background-color: #ddceb4;
+    align-items: center;
+}
+h2 {
+  font-family: 'Sofia', cursive;
+  color: black;
+}
+p {
+   color: black;
+   border-top: 1px solid;
+   border-bottom: 1px solid;
+   padding: 10px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   text-align: center;
+   font-weight: bold;
+}
+.workfirst-row {
+    display: flex;
+    justify-content: center;
+}
+  
+.workSecond-row {
+  display: flex;
+  justify-content: center;
+}
+ img {
+  border-radius: 15px;
+  height: 165px;
+  width: 215px;
+}
+ figure {
+    position: relative;
+}
+figcaption{
+    display: none;
+}
+figure:hover figcaption{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:#0e0e0ede;
+    border-radius: 15px;    
+}
+.my-button{
+    border-radius: 100%;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 10px 12px;
+    color: black;
+    margin-inline-start: 3px;
+}
+.my-button:hover{
+    background-color: #0e0e0eeb;
+    border-color: white;
+    transition: 0.5s;
+}
+.my-button:hover i{
+    color: white;
+}
+
+@media screen and (min-width:591px) and (max-width: 768px){
+    #portfolio-work{
+        display: flex;
+        justify-content: center;
+    }
+    #portfolio-work div{
+        display: block;
+        
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 590px){
+    header > img {
+        padding-block-start: 6px;
+        padding-block-end: 4px;
+        width: 55px;
+        height: 35px;
+        padding-inline-start: 6px;
+    }
+    nav ul{
+        margin: 10px 0px;
+    }
+    nav li {
+        padding: 0px 5px;
+    }    
+
+}
