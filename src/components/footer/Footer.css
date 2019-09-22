@@ -1,0 +1,19 @@
+footer {
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+footer p, footer i {
+    border: none;
+    padding: 0;
+}
+footer .fas {
+    padding: 0;
+    margin: 0 5px;
+}
+footer:hover i {
+    color: red;
+}
