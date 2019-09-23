@@ -9,6 +9,7 @@ footer {
 footer p, footer i {
     border: none;
     padding: 0;
+    color: white;
 }
 footer .fas {
     padding: 0;
