@@ -8,6 +8,7 @@ import './component/Header.css'
 import './component/Portfolio.css'
 
 
+import Services from './Services';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
     
       <Header />
       <Portfolio />
+      <Services />
+
       <Contact />
      <Footer />
     </div>
