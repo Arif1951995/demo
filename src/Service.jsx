@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function Service(props) {
     return (
        
-        <li>
+        <li >
                     <i>{props.icon}</i>
                     <h3>{props.h3}</h3>
                     <p>{props.para}</p>

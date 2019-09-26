@@ -1,39 +1,44 @@
-/* .services{
-     background-color: #efece7;
-     background-image: url(images/floral.png);
+.services{
+    background-color: #ffe4c44d;
+     background-image: url(https://i.ibb.co/6J77JkQ/floral.png);
      padding: 10px;
-     width: 100%;
+     margin: auto;
+
 
  }
 
-i {
+.services i {
      font-size: 80px;
  }
 
-div {
-     display: flex;
-     flex-direction: row;
-     width: 100%;
-     margin: auto;
- }
-
-div:hover i {
+.services li:hover i {
      color: #ef3b4c;
      transition: color 1s;
- }
+}
 
-li {
+.services ul{
+    display: flex;
+}
+
+.services li {
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
      margin: 20px;
+     list-style-type: none;
 
  }
 
-p {
+.services p {
      text-align: center;
      padding: 0;
      margin: 0;
      border: none;
- } */
+ }
+
+.services h1{
+     text-align: center;
+     font-family: cursive;
+    font-size: xx-large;
+ }
