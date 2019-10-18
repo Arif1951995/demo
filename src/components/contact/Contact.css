@@ -1,0 +1,31 @@
+section#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #AFC7C6;
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    background-image: url("../../assets/imgs/floral.png");
+
+}
+#contact i {
+    padding: 20px;
+    font-size: 3em;
+    color: #212121;
+    margin: 10px;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 100%;
+
+}
+
+#contact i:hover {
+    background-color: #212121;
+    color: #FCDEA6;
+}
+
+#contact .icons {
+    margin-top: 40px;
+}
